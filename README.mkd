@@ -1,9 +1,12 @@
-Monokai Colorscheme for Gnome Terminal
-======================================
+Gruvbox color scheme for Gnome Terminal
+=======================================
 
-Scripts for setting the Monokai colorscheme in Gnome Terminal.
+Scripts for setting the gruvbox colorscheme in Gnome Terminal.
 
-Forked from [Gnome Terminal colors Solarized](https://github.com/Anthony25/gnome-terminal-colors-solarized)
+Forked from [Monokai Gnome Terminal](https://github.com/0xComposure/monokai-gnome-terminal)
+which was forked from [Gnome Terminal colors Solarized](https://github.com/Anthony25/gnome-terminal-colors-solarized)
+
+I just changed the colors.
 
 Installation
 ------------
@@ -14,9 +17,9 @@ You need the `dconf` command (if you run a recent Gnome version). If you are usi
 
     $ sudo apt-get install dconf-cli
 
-Then clone the repository and you can run the installation script:
+Then clone the repository, and you can run the installation script:
 
-    $ git clone https://github.com/0xComposure/monokai-gnome-terminal
-    $ cd monokai-gnome-terminal
+    $ git clone https://github.com/AdrienPlacais/gruvbox-gnome-terminal
+    $ cd gruvbox-gnome-terminal
     $ ./install.sh
 And just follow the instructions.
